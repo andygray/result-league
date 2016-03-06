@@ -6,8 +6,8 @@ import {TableSortPipe} from "./pipe";
 
 @Component({
   selector: 'league-table',
-  templateUrl:`league-table.html`,
-  styleUrls:[`league-table.css`],
+  templateUrl:`templates/league-table.html`,
+  styleUrls:[`css/league-table.css`],
   directives: [ResultFormComponent],
   providers: [ResultService],
   pipes: [TableSortPipe],
