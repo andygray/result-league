@@ -3,7 +3,7 @@
 League table for round based results, for example, golf
 
 ## angular 2 with typescript
-'"
+
 little example of trying to use angular 2 with typescript version "beta"
 
 ## demo
