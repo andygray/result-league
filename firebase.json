@@ -1,0 +1,9 @@
+{
+  "firebase": "result-league",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

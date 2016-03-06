@@ -1,0 +1,20 @@
+<form [ngFormModel]="form" class="form" [hidden]="visible">
+
+  <label>Name</label>
+  <select class="form-control" ngControl="nameId">
+    <option *ngFor="#result of results" [value]="result.id">{{result.name}}</option>
+  </select>
+	
+	<label>Round</label>
+  <select class="form-control" ngControl="round">
+    <option *ngFor="#r of rounds" [value]="r.key">{{r.label}}</option>
+  </select>
+
+  <label>Score</label>
+	<input type="number" class="form-control" ngControl="score" placeholder="score" />
+	
+	<button (click)="submitData()" [disabled]="!form.valid" class="btn btn-primary top-pad">Add Result</button>
+</form>
+
+<div [hidden]="visible"><span class="glyphicon glyphicon-minus top-pad" (click)="toggleVisibility()"></span></div>
+<div [hidden]="!visible"><span class="glyphicon glyphicon-plus top-pad" (click)="toggleVisibility()"></span></div>

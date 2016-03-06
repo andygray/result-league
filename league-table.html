@@ -1,0 +1,20 @@
+<table class="table">
+  <tr>
+    <th>Player</th>
+    <th>R1</th>
+    <th>R2</th>
+    <th>R3</th>
+    <th>R4</th>
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="#result of results | arraySort">
+    <td>{{result.name}}</td>
+    <td>{{result.r1}}</td>
+    <td>{{result.r2}}</td>
+    <td>{{result.r3}}</td>
+    <td>{{result.r4}}</td>
+    <td><strong class="total">{{result.total()}}</strong></td>
+  </tr>
+</table>
+
+<result-form [results]="results" (result)="onRate($event)"></result-form>
