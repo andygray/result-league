@@ -14,7 +14,7 @@ https://result-league.firebaseapp.com/
 
 install [firebase tools](https://www.firebase.com/docs/hosting/command-line-tool.html)
 
-see (firebase.json) for config
+see [firebase.json](firebase.json) for config
 
 `firebase serve`
 

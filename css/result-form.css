@@ -1,7 +1,15 @@
 .form {
-color: green;
+  color: darkgray;
 }
 
 .top-pad {
   margin-top: 10px;
+}
+
+.left-pad {
+  margin-left: 10px;
+}
+
+.right-pad {
+  margin-right: 10px;
 }

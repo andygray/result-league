@@ -1,3 +1,11 @@
 .total {
-  color: blue;
+  font-weight: bold;
+}
+
+td, th {
+  text-align: center;
+}
+
+.name {
+  text-align: left !important;
 }
